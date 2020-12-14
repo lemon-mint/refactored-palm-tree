@@ -1,10 +1,14 @@
 import React from "react";
 import "./App.css";
+import CodeEdit from "./code";
 
 class App extends React.Component {
     render() {
         return (
-            <h1>Hello World!!</h1>
+            <React.Fragment>
+                <h1>Hello World!!</h1>
+                <CodeEdit/>
+            </React.Fragment>
         )
     }
 }
